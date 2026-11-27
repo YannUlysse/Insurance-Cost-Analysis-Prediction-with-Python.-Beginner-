@@ -1,0 +1,15 @@
+ Conclusion – Insurance Cost Analysis & Prediction
+
+The objective of this project was to explore the relationship between customer characteristics and medical insurance charges, and to develop a simple predictive model using Python.
+
+The exploratory data analysis revealed several interesting patterns. First, the distribution of medical charges shows that costs are not evenly distributed across customers. Most observations are concentrated within certain lower and moderate cost ranges, while a smaller proportion of customers have considerably higher medical charges.
+
+The boxplot revealed a substantial difference between smokers and non-smokers. Smokers generally have significantly higher medical charges. The scatterplot also suggests a positive relationship between age and medical costs: as age increases, charges tend to increase as well.
+
+To explore these relationships further, I developed a multiple linear regression model using three predictors: age, BMI and smoking status.
+
+The model achieved an R² score of approximately 0.78, meaning that it explains about 77.8% of the variation in medical charges within the test dataset. Its Mean Absolute Error (MAE) was approximately $4,260.56, indicating the average absolute difference between predicted and actual charges.
+
+Overall, the analysis suggests that smoking status and age are important factors associated with medical insurance charges in this dataset. However, the model remains a simplified predictive exercise. It uses only three variables and does not capture every factor that may influence medical costs. These findings also describe associations rather than proving causation.
+
+This project provided practical experience in exploratory data analysis, data visualization, predictive modelling and model evaluation using Python.
